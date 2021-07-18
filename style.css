@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 20px auto 30px auto;
+}
+
+header h1 {
+    color: #5C3B95;
+    text-align: center;
+    margin: 0;
+}
+
+
+#text {
+    background-color: #F1B9BA;
+    color :#E76F53;
+    font-size: 3rem;
+    max-width: fit-content;
+    padding: 15px 30px;
+    margin: 0 auto 40px auto;
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn input {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#btn_up  {
+    color: red;
+}
+
+#btn_down {
+    color: blue;
+}
+
+#btn_reset {
+    color: green;
+}
+
+
+
