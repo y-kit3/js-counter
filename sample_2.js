@@ -13,6 +13,7 @@
         count_value++;
         text.innerHTML = count_value;
         console.log('count_value =>',count_value);
+        console.log('count_event =>',event);
     })
 
     //ボタンが押されたらカウント減
@@ -21,6 +22,7 @@
             count_value--;
             text.innerHTML = count_value;
             console.log('count_value =>',count_value);
+            console.log('count_event =>',event);
         }
     })
 
@@ -29,6 +31,7 @@
         count_value = 0;
         text.innerHTML = count_value;
         console.log('count_value =>',count_value);
+        console.log('count_event =>',event);
     })
 })();
 
